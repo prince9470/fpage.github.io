@@ -6,6 +6,133 @@ sample page
 	<meta charset="UTF-8">
 	<title>Ultimate Frisbee - Teams</title>
 	<link rel="stylesheet" href="hw1.css">
+  <style>
+    body{
+  margin: 1%;
+  padding: 2px;
+}
+header{
+  background: #b3b3b3;
+  background-image: url("../images/flywheel.jpg");
+  padding: 0.05%;
+  height: 300px;
+} 
+h1{
+  font-variant-caps:  all-small-caps;
+  text-align: center;
+  font-size:60px;
+  color: #ffffffeb;
+}
+nav a{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    height:40px;
+    padding-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.3;
+    font-size: 18px;
+    margin:20px;
+}
+
+nav a:link{
+    background-color: #ffffff;
+}
+
+nav a:visited,.active{  /*To make current page navigation link show*/
+    background-color: #ffffff;
+    opacity:1;
+}
+nav a:hover{
+    background-color: #ffffff;
+    opacity: 1.0;   
+}
+header>nav>a:active{
+    background-color: #00ddee;
+    opacity: 1.0;
+}
+img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  float: left;
+  clear: both;
+  margin: 25px;
+  border: 4px solid black;
+}
+.left{
+height: 120vh;
+  width: 25%;
+  margin-right: 2%;
+ display:inline-block;
+ float: left;
+ background: #298000e3;
+}
+h2{
+  font-variant-caps:  all-small-caps;
+  text-align:left;
+  font-size: 50px;
+}
+a{
+  font-size: 20px;
+}
+p{
+  font-size:25px;
+}
+th{
+  font-size: 20px;
+}
+td{
+  font-size: 20px;
+} 
+table{
+  margin-left: 30%;
+  padding-right: 5%;
+  width: 70%;
+  line-height: 5px;
+}
+th{
+  background: #358000db;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 1.9%; 
+  border-top:    2px solid black;
+  border-bottom: 4px solid black;
+}
+th:nth-child(1){
+  padding-right: 15%;
+  text-align: left;
+  position: strict;
+  clear: both;
+}
+th:nth-child(2){
+padding-right: 0.5%;  
+ text-align: center;
+  position: relative;
+}
+th:nth-child(3){
+  padding-right: 1%;
+  text-align: center;
+  position: strict;
+}
+
+td{
+background: #18800047;
+  text-align: center;
+  padding: 2%;
+  border-radius: 4px;
+opacity: 0.6;
+}
+tr td:nth-child(1){
+  text-align: left;
+}
+td:hover{
+  opacity: 1;
+}
+</style>
 </head>
 <body>
 	<header>
